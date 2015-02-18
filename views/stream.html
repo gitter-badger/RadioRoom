@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block stylesheets %}
+<link rel="stylesheet" href="/css/site.css">
+{% endblock %}
+{% block body %} 
+<article class="pure-g">
+    <section class="pure-u-1-2 media">
+        <div class="pure-g">
+            <h2 class="pure-u-1">{{meta.title}}</h2>
+            <div class="thumbnail pure-u-1-2">
+                <img class="pure-img" src="{{thumb}}">
+            </div>
+            <div class="playlist pure-u-1-2"></div>
+            <audio class="player" src="/song/{{fileName}}" preload="auto" autoplay></audio>
+            <nav class="controls pure-u-1">
+                <a href="#play"><i class="fa fa-play"></i></a>
+                <a href="#pause"><i class="fa fa-pause"></i></a>
+                <a href="#mute"><i class="fa fa-volume-up"></i></a>
+                <a href="#unmute"><i class="fa fa-volume-off"></i></a>
+            </nav>
+        </div>
+    </section>
+</article>
+{% endblock %} 
+{% block scripts %} 
+    <script src="/js/client.js"></script>
+{% endblock %}

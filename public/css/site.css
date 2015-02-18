@@ -1,0 +1,43 @@
+article {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.launch > form {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+/*
+* Player Styling
+*/
+.player {
+    display: block;
+    color: blue;
+    background-color: white;
+    width:100%;
+}
+.media {
+    display: block;
+}
+.controls {
+    display: block;
+    width: 100%;
+    background-color: rgba(0,0,0,1.0);
+}
+.controls a {
+    text-decoration: none;
+    color: white;
+}
+.controls a:visted {
+    text-decoration: none;
+    color: white;
+}
+.playlist {
+    height: 250px;
+    background-color: rgba(5,5,5,1.0);
+}
+audio {
+    display: none;
+}
