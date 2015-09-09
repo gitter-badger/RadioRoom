@@ -14,9 +14,8 @@ article {
 */
 .player {
     display: block;
-    color: blue;
     background-color: white;
-    width:100%;
+    width:50%;
 }
 .media {
     display: block;
@@ -37,7 +36,4 @@ article {
 .playlist {
     height: 250px;
     background-color: rgba(5,5,5,1.0);
-}
-audio {
-    display: none;
 }
